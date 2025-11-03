@@ -98,10 +98,15 @@ export const theme = {
         "0%": { transform: "translateY(0%)", opacity: "1" },
         "100%": { transform: "translateY(-5%)", opacity: "0" },
       },
+      letreiro: {
+        "0%": { transform: "translateX(0%)" },
+        "100%": { transform: "translateX(-50%)" },
+      },
     },
     animation: {
       "slide-down": "slideDown 1s ease",
       "slide-up": "slideUp 1s ease",
+      letreiro: "letreiro 20s linear infinite",
     },
   },
 };

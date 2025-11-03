@@ -39,7 +39,7 @@ const contentLp01 = {
     },
     textArea: {
       title: (
-        <h1>
+        <h1 className="flex flex-col text-title6">
           {/* <TypewriterComponent
             options={{
               strings: ["A_Definir", "A_Definir", "A_Definir"],
@@ -47,18 +47,13 @@ const contentLp01 = {
               loop: true,
             }}
           /> */}
-          Envolvido em questões de família no{" "}
-          <span className="text-[#E979A3] font-bold">exterior</span>? Saiba como
-          proteger seus
-          <span className="text-[#E979A3] font-bold">
-            {" "}
-            direitos internacionais
+          LEILÃO DE SUCESSO
+          <span className="font-medium text-title5 font-secondFont">
+            para iniciantes
           </span>
-          !
         </h1>
       ),
-      subtitle:
-        "Casos de família que atravessam fronteiras exigem cuidado especial. Conte com um advogado em Direito de Família Internacional para garantir segurança jurídica a você e sua família.",
+      subtitle: "Tudo que você precisa saber para começar a investir em leilão",
       buttonLabel: "Proteja seus direitos além das fronteiras",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",

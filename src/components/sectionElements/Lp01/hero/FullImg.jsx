@@ -54,7 +54,7 @@ function FullImg({ obs }) {
                           </div>
                         </MotionDivDownToUp>
 
-                        <div className="w-full phone2:w-full tablet2:w-auto">
+                        {/* <div className="w-full phone2:w-full tablet2:w-auto">
                           <div className="flex justify-center w-full desktop1:justify-start">
                             <MotionDivDownToUp>
                               <Button
@@ -92,7 +92,7 @@ function FullImg({ obs }) {
                               </div>
                             </MotionDivDownToUp>
                           )}
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -105,20 +105,20 @@ function FullImg({ obs }) {
 
       {/*-------- Versão para tablet1 pra frente -------- */}
       <div
-        className="hidden desktop1:flex bg-top font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-auto"
+        className="hidden desktop1:flex bg-top font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-[45vw]"
         style={{
           backgroundImage: `url(${contentLp01.hero.bgImg})`,
           backgroundPosition: "top",
         }}
       >
-        <SectionArea
-          paddingTopAndBottom={false}
-          className="h-full bg-black bg-opacity-60"
-        >
-          <SectionWrapper className="">
+        <SectionArea paddingTopAndBottom={false} className="h-full relative">
+          {/* <div className="absolute inset-0 w-[65%] h-full bg-gradient-to-r from-darker to-transparent" />
+          <div className="absolute right-0 inset-y-0  h-full bg-gradient-to-l from-darker to-transparent" /> */}
+
+          <SectionWrapper className="m-auto">
             <div className="flex w-full">
               <div className="flex phone1:flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between w-full max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
-                <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
+                <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px] z-50">
                   <MotionDivDownToUp className="flex justify-start tablet1:justify-center desktop1:justify-start">
                     <img
                       src={contentLp01.hero.logo.logoImg}
@@ -139,7 +139,7 @@ function FullImg({ obs }) {
                         </p>
                       </div>
                     </MotionDivDownToUp>
-                    <div className="w-full phone2:w-full tablet2:w-auto">
+                    {/* <div className="w-full phone2:w-full tablet2:w-auto">
                       <div className="flex justify-center w-full desktop1:justify-start">
                         <MotionDivDownToUp>
                           <Button
@@ -176,13 +176,34 @@ function FullImg({ obs }) {
                           </div>
                         </MotionDivDownToUp>
                       )}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
             </div>
           </SectionWrapper>
         </SectionArea>
+      </div>
+      <div className="bg-red-800 h-8 items-center flex relative overflow-hidden whitespace-nowrap font-secondFont text-white font-light px-2 justify-evenly">
+        <div className="flex gap-2 animate-letreiro whitespace-nowrap">
+          <span>
+            O primeiro passo - Mitos e Verdades - Análise de Edital - Riscos e
+            Cuidados
+          </span>
+          <span>
+            O primeiro passo - Mitos e Verdades - Análise de Edital - Riscos e
+            Cuidados
+          </span>
+          <span>
+            O primeiro passo - Mitos e Verdades - Análise de Edital - Riscos e
+            Cuidados
+          </span>
+        </div>
+      </div>
+      <div className="bg-red-900 h-16 flex items-center justify-center">
+        <h1 className="text-title5 font-mainFont text-white">
+          Sobre o Projeto!
+        </h1>
       </div>
     </div>
   );
