@@ -45,7 +45,7 @@ function ConvencimentoNovo() {
                   <strong className="text-backgroundLEscuro">Depois: </strong>
                   Com o <i>E-book Leilão de Sucesso</i>, você aprende a analisar
                   editais, evitar riscos e conquistar imóveis a partir de
-                  <strong>R$ 5.000,00</strong> com segurança.
+                  <strong> R$ 5.000,00</strong> com segurança.
                 </p>
               </div>
             </div>

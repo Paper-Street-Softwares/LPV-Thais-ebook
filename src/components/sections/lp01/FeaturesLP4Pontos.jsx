@@ -19,7 +19,27 @@ function FeaturesLP4Pontos() {
             </span>{" "}
             <span>
               O primeiro passo - Mitos e Verdades - Análise de Edital - Riscos e
-              Cuidados -
+              Cuidados - O primeiro passo - Mitos e Verdades - Análise de Edital
+              - Riscos e Cuidados - O primeiro passo - Mitos e Verdades -
+              Análise de Edital - Riscos e Cuidados - O primeiro passo - Mitos e
+              Verdades - Análise de Edital - Riscos e Cuidados - O primeiro
+              passo - Mitos e Verdades - Análise de Edital - Riscos e Cuidados -
+              O primeiro passo - Mitos e Verdades - Análise de Edital - Riscos e
+              Cuidados - O primeiro passo - Mitos e Verdades - Análise de Edital
+              - Riscos e Cuidados - O primeiro passo - Mitos e Verdades -
+              Análise de Edital - Riscos e Cuidados - O primeiro passo - Mitos e
+              Verdades - Análise de Edital - Riscos e Cuidados - O primeiro
+              passo - Mitos e Verdades - Análise de Edital - Riscos e Cuidados -
+              O primeiro passo - Mitos e Verdades - Análise de Edital - Riscos e
+              Cuidados - O primeiro passo - Mitos e Verdades - Análise de Edital
+              - Riscos e Cuidados - O primeiro passo - Mitos e Verdades -
+              Análise de Edital - Riscos e Cuidados - O primeiro passo - Mitos e
+              Verdades - Análise de Edital - Riscos e Cuidados - O primeiro
+              passo - Mitos e Verdades - Análise de Edital - Riscos e Cuidados -
+              O primeiro passo - Mitos e Verdades - Análise de Edital - Riscos e
+              Cuidados - O primeiro passo - Mitos e Verdades - Análise de Edital
+              - Riscos e Cuidados - O primeiro passo - Mitos e Verdades -
+              Análise de Edital - Riscos e Cuidados -
             </span>
           </p>
         </div>
