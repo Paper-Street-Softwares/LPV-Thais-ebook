@@ -17,15 +17,14 @@ import { Ban } from "lucide-react";
 import { IdCard } from "lucide-react";
 import { Gavel } from "lucide-react";
 import TypewriterComponent from "typewriter-effect";
-import img1 from "../assets/imgs/whyUs/WhyUsImg1.webp";
-import img2 from "../assets/imgs/whyUs/WhyUsImg2.webp";
-import img3 from "../assets/imgs/whyUs/WhyUsImg3.webp";
-import img4 from "../assets/imgs/whyUs/WhyUsImg4.webp";
-import img5 from "../assets/imgs/whyUs/WhyUsImg5.webp";
-import img6 from "../assets/imgs/whyUs/WhyUsImg6.webp";
+import img1 from "../assets/imgs/whyUs/imgWhy1.webp";
+import img2 from "../assets/imgs/whyUs/imgWhy2.webp";
+import img3 from "../assets/imgs/whyUs/imgWhy3.webp";
+import img4 from "../assets/imgs/whyUs/imgWhy4.webp";
+import img5 from "../assets/imgs/whyUs/imgWhy5.webp";
+import img6 from "../assets/imgs/whyUs/imgWhy6.webp";
 import imgAbout from "../assets/imgs/about/espelhoAbout.webp";
 import paralaxe from "../assets/imgs/paralaxe/bgParalaxe1.webp";
-// comentario
 
 // import img1 from "../assets/imgs/about/image1.webp";
 // import img2 from "../assets/imgs/about/image2.webp";
