@@ -20,7 +20,7 @@ function EntregaNovo() {
             <h1 className="text-title4 font-mainFont text-primary leading-[30px] mb-12">
               O que você vai{" "}
               <span className="text-backgroundLEscuro">encontrar</span> no
-              ebook:
+              e-book:
             </h1>
           </div>
 

@@ -41,11 +41,11 @@ function AboutNovo() {
             <section className="tablet2:max-w-[50%]">
               <div className="flex flex-col m-auto">
                 <p className="text-paragraph1 mb-2 w-full tracking-[5px]">
-                  A Definir <span className="">...</span>
+                  A grande jogada <span className="">...</span>
                 </p>
                 <h1 className="text-title1 text-white leading-[25px] font-mainFont">
-                  PARA QUEM É O E-BOOK{" "}
-                  <span className="font-semibold">LEILÃO DE SUCESSO</span>?
+                  Conhecer o mundo{" "}
+                  <span className="font-semibold">dos leilões</span>
                 </h1>
 
                 <div className="relative max-w-[450px] h-[2px] overflow-hidden my-3">
@@ -69,7 +69,7 @@ function AboutNovo() {
                       <Button
                         label="Quero conquistar imóveis em leilão!"
                         size="small"
-                        textclassName="text-start text-white "
+                        textclassName="text-center text-white "
                         color="bg-gradient-to-r from-red-900 to-red-950 border-r-2 border-yellow-500 border-t-[1px] border-b-[1px]"
                         buttonLink="https://pay.kiwify.com.br/2jENvFn"
                       />

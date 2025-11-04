@@ -65,7 +65,7 @@ function AcessoNovo() {
 
             <div className="flex flex-col items-center">
               <div className="flex gap-1 font-mainFont">
-                <h6 className="text-paragraph3 mt-3">RS</h6>
+                <h6 className="text-paragraph3 mt-3">R$</h6>
                 <div className="flex">
                   <h1 className="text-title5">26,</h1>
                   <h6 className="text-title3 mt-2">70</h6>
@@ -90,7 +90,7 @@ function AcessoNovo() {
               <Button
                 label="Aprender os segredos dos leilões!"
                 size="small"
-                textclassName="text-start text-white "
+                textclassName="text-center text-white "
                 color="bg-gradient-to-r from-red-900 to-red-950"
                 buttonLink="https://pay.kiwify.com.br/2jENvFn"
               />
