@@ -47,7 +47,7 @@ export default function SectionHeader({
     miniTitleSpace = "w-full flex-start text-left";
     titleOrientation = "text-left";
     subtitleOrientation = "text-left";
-    marginBottomOption = "mb-[26px] tablet1:mb-[40px] desktop1:mb-[32px]";
+    marginBottomOption = "";
   } else {
     usage = "w-[90%] tablet1:w-[80%] desktop1:w-[60%] max-w-[920px]";
     marginBottomOption = "";
