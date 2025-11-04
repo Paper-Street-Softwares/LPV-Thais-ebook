@@ -32,7 +32,7 @@ function HeroNovaLPV() {
               <img
                 src={contentLp01.hero.imgPerson}
                 alt=""
-                className="w-[90%]"
+                className="w-[90%] m-auto"
               />
             </div>
           </SectionWrapper>

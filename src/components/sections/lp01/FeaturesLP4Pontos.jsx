@@ -10,14 +10,18 @@ function FeaturesLP4Pontos() {
       {/* BLOCO VERMELHO 1 - Letreiro */}
       <div className=" bg-rolagem text-white overflow-hidden ">
         <div className="flex gap-6 whitespace-nowrap animate-letreiro py-2 font-mainFont">
-          <span>
+          <p>
             O primeiro passo - Mitos e Verdades - Análise de Edital - Riscos e
-            Cuidados
-          </span>
-          <span>
-            O primeiro passo - Mitos e Verdades - Análise de Edital - Riscos e
-            Cuidados
-          </span>
+            Cuidados -{" "}
+            <span>
+              O primeiro passo - Mitos e Verdades - Análise de Edital - Riscos e
+              Cuidados -
+            </span>{" "}
+            <span>
+              O primeiro passo - Mitos e Verdades - Análise de Edital - Riscos e
+              Cuidados -
+            </span>
+          </p>
         </div>
       </div>
 
@@ -34,7 +38,7 @@ function FeaturesLP4Pontos() {
                   className="mb-[10px]"
                 /> */}
 
-                <h2 className="font-mainFont text-title3 phone2:text-title4 tablet1:text-title5 font-light mb-2 leading-[30px]">
+                <h2 className="font-mainFont text-title3 phone2:text-title4 tablet1:text-title5 font-light mb-2 leading-[30px] desktop1:leading-[40px]">
                   LEILÃO DE <span className="font-semibold">SUCESSO</span>{" "}
                   <br />
                   para iniciantes
