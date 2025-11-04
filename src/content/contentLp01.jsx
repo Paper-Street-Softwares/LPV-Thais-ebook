@@ -25,6 +25,7 @@ import img5 from "../assets/imgs/whyUs/WhyUsImg5.webp";
 import img6 from "../assets/imgs/whyUs/WhyUsImg6.webp";
 import imgAbout from "../assets/imgs/about/espelhoAbout.webp";
 import paralaxe from "../assets/imgs/paralaxe/bgParalaxe1.webp";
+// comentario
 
 // import img1 from "../assets/imgs/about/image1.webp";
 // import img2 from "../assets/imgs/about/image2.webp";
