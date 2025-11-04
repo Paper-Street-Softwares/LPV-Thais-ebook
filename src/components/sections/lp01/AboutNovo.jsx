@@ -11,8 +11,9 @@ function AboutNovo() {
       style={{
         backgroundImage: `url(${contentLp01.about.paralaxe})`,
         backgroundRepeat: "no-repeat",
+        backgroundSize: "bg-cover",
       }}
-      className="relative"
+      className="relative bg-scroll bg-center bg-cover desktop1:bg-fixed"
     >
       <div className="absolute inset-0 bg-primary/90 z-0 pointer-events-none" />
       <SectionArea>
