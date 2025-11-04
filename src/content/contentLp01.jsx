@@ -37,9 +37,9 @@ const contentLp01 = {
     title:
       "E-book de Leilões e Contratos com Thaís Costa - São Paulo | Aprenda a Conquistar Imóveis com Segurança",
     description:
-      "Escritório especializado em Direito de Família Internacional em Guarulhos - SP, atuando em guarda, pensão e reconhecimento de decisões estrangeiras.",
+      "Aprenda a participar de leilões imobiliários e dominar contratos com o e-book da Thaís Costa. Conteúdo completo, dicas práticas e estratégias seguras para conquistar imóveis em São Paulo.",
     keywords:
-      "Direito de Família Internacional, Advogado de Família em Guarulhos, Ferreira Alves Advocacia, Pensão Alimentícia Internacional, Guarda Internacional, Divórcio Internacional, Reconhecimento de Sentença Estrangeira, Direitos da Criança no Exterior, Execução de Pensão entre Países, Responsabilidade Parental Internacional, Advocacia em Direito de Família, Consultoria Jurídica Internacional, Acordos de Família entre Países, Custódia Internacional, Direitos do Ex-Cônjuge no Exterior, Suporte Jurídico Internacional, Mediação Familiar Internacional, Tratados Internacionais de Família, Proteção dos Filhos no Exterior, Assessoria Jurídica Guarulhos.",
+      "E-book Leilões,  Thaís Costa, Leilões Imobiliários SP, Contratos Jurídicos SP, Aprender sobre Leilões, E-book Jurídico, Consultoria Jurídica SP, Leilões Judiciais, Leilões Extrajudiciais, Segurança em Leilões, Dicas de Leilão, Thaís Costa Advocacia, Imóveis em Leilão SP, Estratégias Jurídicas, Contratos e Leilões, Assessoria Jurídica SP, E-book Thaís Costa, Como Arrematar Imóveis, Direito Imobiliário SP, Guia Prático Leilões.",
   },
   hero: {
     bgImg: bgImg,

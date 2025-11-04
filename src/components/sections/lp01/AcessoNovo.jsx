@@ -3,13 +3,22 @@ import SectionArea from "../../sectionElements/SectionArea";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import Button from "../../interactives/Button";
 import contentLp01 from "../../../content/contentLp01";
+import { Gift, Shield } from "lucide-react";
 
 function AcessoNovo() {
   return (
-    <div>
+    <div
+      style={{
+        backgroundImage: `url(${contentLp01.about.paralaxe})`,
+        backgroundRepeat: "no-repeat",
+      }}
+      className="relative"
+    >
+      <div className="absolute inset-0 bg-primary/90 z-0 pointer-events-none" />
+
       <SectionArea>
         <SectionWrapper>
-          <div className="bg-white text-primary p-8 relative">
+          <div className="bg-gradient-to-r from-backgroundLClaro to-backgroundRClaro text-primary p-8 relative max-w-[337px] rounded-md">
             <p className=" flex justify-center items-center"> ...</p>
             <h1 className="text-title3 w-full text-center leading-[20px] font-mainFont">
               O que você <span>terá</span> <br />
@@ -20,7 +29,7 @@ function AcessoNovo() {
               <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary to-transparent animate-glowLine"></div>
             </div>
 
-            <div className="flex flex-col gap-1 items-start">
+            <div className="flex flex-col gap-1 items-start font-secondFont">
               Apresentação
               <p className="text-paragraph1">
                 <span className="text-red-900">Capítulo 1</span> — O Primeiro
@@ -55,18 +64,31 @@ function AcessoNovo() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="flex gap-1">
+              <div className="flex gap-1 font-mainFont">
                 <h6 className="text-paragraph3 mt-3">RS</h6>
-                <h1 className="text-title5">997,</h1>
-                <h6 className="text-title3 mt-1">00</h6>
-                <p className="text-paragraph1 mt-6">A vista</p>
+                <div className="flex">
+                  <h1 className="text-title5">26,</h1>
+                  <h6 className="text-title3 mt-2">70</h6>
+                </div>
+                <p className="text-paragraph1 mt-6">À vista</p>
               </div>
-              <h5 className="text-paragraph2">OU 12x DE XXX</h5>
+              <h5 className="text-paragraph2 font-secondFont flex gap-2 items-center">
+                <span>
+                  <Gift width={18} />
+                </span>
+                Preço especial de lançamento!
+              </h5>
+              <h5 className="text-paragraph2 font-secondFont flex gap-2 items-center">
+                <span>
+                  <Shield width={18} />
+                </span>
+                Pagamento rápido e seguro
+              </h5>
             </div>
 
-            <div className="py-3">
+            <div className="py-3 flex justify-center">
               <Button
-                label="Quero conquistar imóveis em leilão!"
+                label="Aprender os segredos dos leilões!"
                 size="small"
                 textclassName="text-start text-white "
                 color="bg-gradient-to-r from-red-900 to-red-950"
@@ -75,12 +97,12 @@ function AcessoNovo() {
             </div>
 
             {/* IMAGEM CENTRAL FIXA */}
-            <div className="absolute bottom-[600px] inset-0 flex justify-center items-center z-10">
-              <div className=" bg-primary w-14 h-[60px] p-3 rounded-full ">
+            <div className="absolute bottom-[650px] inset-0 flex justify-center items-center z-10">
+              <div className=" bg-primary w-14 h-[60px] p-2 rounded-full ">
                 <img
                   src={contentLp01.hero.logoBrasao}
                   alt=""
-                  className="w-16 object-contain "
+                  className="w-8 object-contain absolute bottom-[-20px] "
                 />
               </div>
             </div>

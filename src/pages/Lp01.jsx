@@ -22,6 +22,7 @@ import ConvencimentoNovo from "../components/sections/lp01/ConvencimentoNovo.jsx
 import AboutNovo from "../components/sections/lp01/AboutNovo.jsx";
 import EntregaNovo from "../components/sections/lp01/EntregaNovo.jsx";
 import AcessoNovo from "../components/sections/lp01/AcessoNovo.jsx";
+import FooterNovo from "../components/sections/lp01/FooterNovo.jsx";
 
 export default function Lp01() {
   useEffect(() => {
@@ -56,6 +57,7 @@ export default function Lp01() {
       <AboutNovo />
       <EntregaNovo />
       <AcessoNovo />
+      <FooterNovo />
       {/* <StepsLpv /> */}
       {/* <FeaturesLP /> */}
       {/* <News /> */}
@@ -64,12 +66,12 @@ export default function Lp01() {
       {/* <CtaLP /> */}
       {/* <Video /> */}
       {/* <Faq /> */}
-      <ContactLP />
-      <FooterLP />
+      {/* <ContactLP />
+      <FooterLP /> */}
       {/* <LPFloatingWhatsappButton /> */}
-      <FloatingWhatsappButton />
+      {/* <FloatingWhatsappButton /> */}
       {/* <WhatsChat /> */}
-      <BackToTopButton />
+      {/* <BackToTopButton /> */}
     </div>
   );
 }
