@@ -5,11 +5,11 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#CAAE74",
-      buttonColor: "#CAAE74",
-      minititleDark: "#CAAE74", //bg minitag de seções claras
-      minititle: "#CAAE74", //bg minitag de seções escuras
-
+      primary: "#400C06",
+      buttonColor: "#400C06",
+      minititleDark: "#400C06", //bg minitag de seções claras
+      minititle: "#400C06", //bg minitag de seções escuras
+      backgroundLPV: "#C5C0B7",
       secondary: "#000000",
 
       // Fundos de Seção
@@ -48,17 +48,24 @@ export const theme = {
 
       lighter: "#FFFFFF",
       darker: "#000000",
+      backgroundREscuro: "#490A08",
+      backgroundLEscuro: "#952713",
+      backgroundRClaro: "#E1B48B",
+      backgroundLClaro: "#FAF3EB",
+      copys: "#5E4F3E",
+      rolagem: "#60140A",
     },
     boxShadow: {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade
       "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
     },
     fontFamily: {
-      mainFont: ["Merriweather", "sans-serif"],
+      mainFont: ["Calistoga, serif"],
       // mainFont: ["Poppins", "sans-serif"],
       secondFont: ["Roboto", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
+      Calistoga: ["Calistoga, serif"],
     },
     fontSize: {
       paragraph1: "0.625rem",
@@ -98,10 +105,15 @@ export const theme = {
         "0%": { transform: "translateY(0%)", opacity: "1" },
         "100%": { transform: "translateY(-5%)", opacity: "0" },
       },
+      letreiro: {
+        "0%": { transform: "translateX(0%)" },
+        "100%": { transform: "translateX(-50%)" },
+      },
     },
     animation: {
       "slide-down": "slideDown 1s ease",
       "slide-up": "slideUp 1s ease",
+      letreiro: "letreiro 20s linear infinite",
     },
   },
 };

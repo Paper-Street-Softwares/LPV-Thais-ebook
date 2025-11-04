@@ -1,5 +1,7 @@
 import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import imgPerson from "../assets/imgs/hero/imgPerson.webp";
 import logo from "../assets/imgs/logo/logo.webp";
+import brasao from "../assets/imgs/logo/logoIcon.webp";
 import imagemAbout from "../assets/imgs/about/aboutImg.webp";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
@@ -15,6 +17,14 @@ import { Ban } from "lucide-react";
 import { IdCard } from "lucide-react";
 import { Gavel } from "lucide-react";
 import TypewriterComponent from "typewriter-effect";
+import img1 from "../assets/imgs/whyUs/imgWhy1.webp";
+import img2 from "../assets/imgs/whyUs/imgWhy2.webp";
+import img3 from "../assets/imgs/whyUs/imgWhy3.webp";
+import img4 from "../assets/imgs/whyUs/imgWhy4.webp";
+import img5 from "../assets/imgs/whyUs/imgWhy5.webp";
+import img6 from "../assets/imgs/whyUs/imgWhy6.webp";
+import imgAbout from "../assets/imgs/about/espelhoAbout.webp";
+import paralaxe from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 
 // import img1 from "../assets/imgs/about/image1.webp";
 // import img2 from "../assets/imgs/about/image2.webp";
@@ -25,21 +35,23 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "Ferreira Alves Advocacia | Direito de Família Internacional em Guarulhos - SP",
+      "E-book de Leilões e Contratos com Thaís Costa - São Paulo | Aprenda a Conquistar Imóveis com Segurança",
     description:
-      "Escritório especializado em Direito de Família Internacional em Guarulhos - SP, atuando em guarda, pensão e reconhecimento de decisões estrangeiras.",
+      "Aprenda a participar de leilões imobiliários e dominar contratos com o e-book da Thaís Costa. Conteúdo completo, dicas práticas e estratégias seguras para conquistar imóveis em São Paulo.",
     keywords:
-      "Direito de Família Internacional, Advogado de Família em Guarulhos, Ferreira Alves Advocacia, Pensão Alimentícia Internacional, Guarda Internacional, Divórcio Internacional, Reconhecimento de Sentença Estrangeira, Direitos da Criança no Exterior, Execução de Pensão entre Países, Responsabilidade Parental Internacional, Advocacia em Direito de Família, Consultoria Jurídica Internacional, Acordos de Família entre Países, Custódia Internacional, Direitos do Ex-Cônjuge no Exterior, Suporte Jurídico Internacional, Mediação Familiar Internacional, Tratados Internacionais de Família, Proteção dos Filhos no Exterior, Assessoria Jurídica Guarulhos.",
+      "E-book Leilões,  Thaís Costa, Leilões Imobiliários SP, Contratos Jurídicos SP, Aprender sobre Leilões, E-book Jurídico, Consultoria Jurídica SP, Leilões Judiciais, Leilões Extrajudiciais, Segurança em Leilões, Dicas de Leilão, Thaís Costa Advocacia, Imóveis em Leilão SP, Estratégias Jurídicas, Contratos e Leilões, Assessoria Jurídica SP, E-book Thaís Costa, Como Arrematar Imóveis, Direito Imobiliário SP, Guia Prático Leilões.",
   },
   hero: {
     bgImg: bgImg,
+    imgPerson: imgPerson,
     logo: {
       logoImg: logo,
       alt: "Logomarca",
     },
+    logoBrasao: brasao,
     textArea: {
       title: (
-        <h1>
+        <h1 className="flex flex-col">
           {/* <TypewriterComponent
             options={{
               strings: ["A_Definir", "A_Definir", "A_Definir"],
@@ -47,18 +59,12 @@ const contentLp01 = {
               loop: true,
             }}
           /> */}
-          Envolvido em questões de família no{" "}
-          <span className="text-[#E979A3] font-bold">exterior</span>? Saiba como
-          proteger seus
-          <span className="text-[#E979A3] font-bold">
-            {" "}
-            direitos internacionais
-          </span>
-          !
+          LEILÃO DE SUCESSO
+          {/* <span className="font-medium  font-secondFont">para iniciantes</span> */}
         </h1>
       ),
       subtitle:
-        "Casos de família que atravessam fronteiras exigem cuidado especial. Conte com um advogado em Direito de Família Internacional para garantir segurança jurídica a você e sua família.",
+        "Tudo que você precisa saber para começar a investir em leilão!",
       buttonLabel: "Proteja seus direitos além das fronteiras",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -237,13 +243,14 @@ const contentLp01 = {
   },
   about: {
     bgImg: bgImg,
+    paralaxe: paralaxe,
     imagesGaleria: {
       // imagem1: img1,
       // imagem2: img2,
       // imagem3: img3,
     },
     imgAbout: {
-      img: imagemAbout,
+      img: imgAbout,
     },
     logo: {
       logoImg: logo,
@@ -401,6 +408,14 @@ const contentLp01 = {
             da fronteira.
           </p>
         ),
+      },
+      imagens: {
+        img1: img1,
+        img2: img2,
+        img3: img3,
+        img4: img4,
+        img5: img5,
+        img6: img6,
       },
     },
   },
