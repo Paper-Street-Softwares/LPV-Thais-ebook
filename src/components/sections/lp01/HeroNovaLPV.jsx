@@ -19,7 +19,7 @@ function HeroNovaLPV() {
               </div>
               <i>
                 {" "}
-                <h1 className="font-Calistoga mt-2 phone2:mb-2 text-primary text-title4 tablet1:text-title6 text-center">
+                <h1 className="font-Merriweather mt-2 phone2:mb-2 text-primary text-title4 tablet1:text-title6 text-center">
                   {contentLp01.hero.textArea.title}
                 </h1>
               </i>
@@ -53,7 +53,7 @@ function HeroNovaLPV() {
                 </div>
                 <i>
                   {" "}
-                  <h1 className="font-Calistoga text-primary desktop1:text-title5">
+                  <h1 className="font-Merriweather text-primary desktop1:text-title5">
                     {contentLp01.hero.textArea.title}
                   </h1>
                 </i>
