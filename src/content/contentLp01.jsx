@@ -1,5 +1,5 @@
-import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import imgPerson from "../assets/imgs/hero/imgPerson.webp";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencerBook.webp";
+import imgPerson from "../assets/imgs/hero/bgHeroInfluencerBook.webp";
 import logo from "../assets/imgs/logo/logo.webp";
 import brasao from "../assets/imgs/logo/logoIcon.webp";
 import imagemAbout from "../assets/imgs/about/aboutImg.webp";

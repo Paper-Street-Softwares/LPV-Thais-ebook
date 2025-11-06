@@ -7,7 +7,7 @@ function Card4PontosFeatures() {
   return (
     <SectionArea paddingTopAndBottom={false}>
       <SectionWrapper>
-        <div className="flex flex-col items-center gap-6 tablet1:gap-8 tablet2:flex-row justify-evenly desktop1:mt-8">
+        <div className="flex flex-col items-center gap-6 tablet1:gap-0 tablet2:flex-row justify-evenly desktop1:mt-8">
           <div className="flex flex-col-reverse gap-12 tablet2:flex-row tablet2:gap-0 items-center">
             <section className="flex flex-col gap-6 text-center tablet1:flex-row tablet2:flex-col tablet2:gap-2 tablet2:text-start desktop1:gap-8">
               <div className="w-[90%] tablet2:max-w-[250px] m-auto min-h-[110px] desktop1:max-w-[200px] flex items-center tablet2:items-start flex-col">

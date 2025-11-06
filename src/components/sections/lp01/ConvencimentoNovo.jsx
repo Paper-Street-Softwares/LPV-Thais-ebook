@@ -41,7 +41,7 @@ function ConvencimentoNovo() {
                   Sem orientação, é comum cair em armadilhas, enfrentar dívidas
                   ocultas e perder dinheiro.
                 </p>
-                <p className="text-paragraph3 font-secondFont pl-3">
+                <p className="text-paragraph3 font-secondFont border border-l-2 border-t-0 border-b-0 border-r-0 border-red-800 pl-3">
                   <strong className="text-backgroundLEscuro">Depois: </strong>
                   Com o <i>E-book Leilão de Sucesso</i>, você aprende a analisar
                   editais, evitar riscos e conquistar imóveis a partir de
