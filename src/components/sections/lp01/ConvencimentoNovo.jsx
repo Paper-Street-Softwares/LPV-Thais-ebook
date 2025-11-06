@@ -52,9 +52,9 @@ function ConvencimentoNovo() {
           </div>
           <div className="tablet2:max-w-[45%] flex flex-col gap-6">
             <section className="flex flex-col items-start">
-              <h1 className="text-start mb-3 text-title3 font-mainFont">
+              {/* <h1 className="text-start mb-3 text-title3 font-mainFont">
                 Antes
-              </h1>
+              </h1> */}
               <div className="flex flex-wrap justify-between">
                 {/* {imagesWhyus.map((img, index) => (
               <img
@@ -84,9 +84,9 @@ function ConvencimentoNovo() {
             </section>
 
             <section>
-              <h1 className="text-start mb-3 text-title3 font-mainFont">
+              {/* <h1 className="text-start mb-3 text-title3 font-mainFont">
                 Depois
-              </h1>
+              </h1> */}
               <div className="flex flex-wrap justify-between">
                 <img
                   src={contentLp01.whyUs.cards.imagens.img4}
