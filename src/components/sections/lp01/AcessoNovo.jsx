@@ -72,18 +72,18 @@ function AcessoNovo() {
                 </div>
                 <p className="text-paragraph1 mt-6">À vista</p>
               </div>
-              <h5 className="text-paragraph2 font-secondFont flex gap-2 items-center">
+              <p className="text-paragraph2 font-secondFont flex gap-2 items-center">
                 <span>
                   <Gift width={18} />
                 </span>
                 Preço especial de lançamento!
-              </h5>
-              <h5 className="text-paragraph2 font-secondFont flex gap-2 items-center">
+              </p>
+              <p className="text-paragraph2 font-secondFont flex gap-2 items-center">
                 <span>
                   <Shield width={18} />
                 </span>
                 Pagamento rápido e seguro
-              </h5>
+              </p>
             </div>
 
             <div className="py-3 flex justify-center">

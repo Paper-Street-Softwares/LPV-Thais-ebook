@@ -17,8 +17,8 @@ function ConvencimentoNovo() {
             </p>
 
             <h1 className="text-title1 font-mainFont text-primary leading-[25px]">
-              PARA <span className="text-red-600">QUEM É</span> O E-BOOK LEILÃO
-              DE SUCESSO?
+              PARA <span className="text-rolagem underline">QUEM É</span> O
+              E-BOOK LEILÃO DE SUCESSO?
             </h1>
 
             <div className="relative w-full h-[2px] overflow-hidden my-3">
@@ -37,12 +37,12 @@ function ConvencimentoNovo() {
               </div>
               <div className="flex flex-col gap-4">
                 <p className="text-paragraph3 font-secondFont border border-l-2 border-t-0 border-b-0 border-r-0 border-red-800 pl-3">
-                  <strong className="text-red-600">Antes: </strong>
+                  <strong className="text-rolagem underline">Antes: </strong>
                   Sem orientação, é comum cair em armadilhas, enfrentar dívidas
                   ocultas e perder dinheiro.
                 </p>
                 <p className="text-paragraph3 font-secondFont border border-l-2 border-t-0 border-b-0 border-r-0 border-red-800 pl-3">
-                  <strong className="text-red-600">Depois: </strong>
+                  <strong className="text-rolagem underline">Depois: </strong>
                   Com o <i>E-book Leilão de Sucesso</i>, você aprende a analisar
                   editais, evitar riscos e conquistar imóveis a partir de
                   <strong> R$ 5.000,00</strong> com segurança.
