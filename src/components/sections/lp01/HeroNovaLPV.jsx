@@ -32,7 +32,7 @@ function HeroNovaLPV() {
               </i>
 
               <img
-                src="/bgHeroInfluencerBook.webp"
+                src="/bgHeroInfluencer.webp"
                 alt="Imagem do Livro na Seção Início"
                 fetchPriority="high"
                 width="468"
