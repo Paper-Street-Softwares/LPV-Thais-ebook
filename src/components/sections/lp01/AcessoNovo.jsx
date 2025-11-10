@@ -65,10 +65,10 @@ function AcessoNovo() {
 
             <div className="flex flex-col items-center">
               <div className="flex gap-1 font-mainFont">
-                <h6 className="text-paragraph3 mt-3">R$</h6>
+                <p className="text-paragraph3 mt-3">R$</p>
                 <div className="flex">
                   <h1 className="text-title5">26,</h1>
-                  <h6 className="text-title3 mt-2">70</h6>
+                  <h1 className="text-title3 mt-2">70</h1>
                 </div>
                 <p className="text-paragraph1 mt-6">À vista</p>
               </div>

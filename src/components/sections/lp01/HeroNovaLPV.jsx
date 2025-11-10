@@ -59,7 +59,7 @@ function HeroNovaLPV() {
                 </i>
                 <i>
                   {" "}
-                  <p className="font-secondFont text-copys w-[50%] text-paragraph1 phone2:text-paragraph2 leading-[15px] phone3:text-paragraph3 tablet1:text-paragraph4 tablet1:w-[65%] tablet2:text-paragraph5 tablet2:leading-[18px] desktop1:w-[80%]">
+                  <p className="font-secondFont text-red-800 w-[50%] text-paragraph1 phone2:text-paragraph2 leading-[15px] phone3:text-paragraph3 tablet1:text-paragraph4 tablet1:w-[65%] tablet2:text-paragraph5 tablet2:leading-[18px] desktop1:w-[80%]">
                     {contentLp01.hero.textArea.subtitle}
                   </p>
                 </i>

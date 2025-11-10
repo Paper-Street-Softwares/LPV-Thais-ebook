@@ -50,28 +50,15 @@ export default function Lp01() {
 
   return (
     <div>
-      {/* <HeroLP fullImg={true} /> */}
-      <HeroNovaLPV />
-      <FeaturesLP4Pontos />
-      <ConvencimentoNovo />
-      <AboutNovo />
-      <EntregaNovo />
-      <AcessoNovo />
+      <main>
+        <HeroNovaLPV />
+        <FeaturesLP4Pontos />
+        <ConvencimentoNovo />
+        <AboutNovo />
+        <EntregaNovo />
+        <AcessoNovo />
+      </main>
       <FooterNovo />
-      {/* <StepsLpv /> */}
-      {/* <FeaturesLP /> */}
-      {/* <News /> */}
-      {/* <AboutParalaxeLP logo={true} /> */}
-      {/* <WhyUs /> */}
-      {/* <CtaLP /> */}
-      {/* <Video /> */}
-      {/* <Faq /> */}
-      {/* <ContactLP />
-      <FooterLP /> */}
-      {/* <LPFloatingWhatsappButton /> */}
-      {/* <FloatingWhatsappButton /> */}
-      {/* <WhatsChat /> */}
-      {/* <BackToTopButton /> */}
     </div>
   );
 }
