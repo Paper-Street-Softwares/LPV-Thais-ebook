@@ -13,6 +13,8 @@ function HeroNovaLPV() {
               <div className="mb-8">
                 <img
                   src={contentLp01.hero.logo.logoImg}
+                  width="192"
+                  height="53"
                   alt=""
                   className="w-[70%] flex m-auto"
                 />
@@ -33,6 +35,8 @@ function HeroNovaLPV() {
                 src="/bgHeroInfluencerBook.webp"
                 alt=""
                 fetchPriority="high"
+                width="468"
+                height="525"
                 className="w-[90%] m-auto"
               />
             </div>
@@ -48,6 +52,8 @@ function HeroNovaLPV() {
                 <div>
                   <img
                     src={contentLp01.hero.logo.logoImg}
+                    width="192"
+                    height="53"
                     alt=""
                     className="w-24 tablet1:w-48 mb-3 "
                   />
@@ -70,6 +76,8 @@ function HeroNovaLPV() {
                 <img
                   src="/bgHeroInfluencerBook.webp"
                   alt=""
+                  width="468px"
+                  height="525px"
                   fetchPriority="high"
                 />
               </div>
