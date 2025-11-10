@@ -15,7 +15,7 @@ function HeroNovaLPV() {
                   src={contentLp01.hero.logo.logoImg}
                   width="192"
                   height="53"
-                  alt=""
+                  alt="Logo da Thaís Costa"
                   className="w-[70%] flex m-auto"
                 />
               </div>
@@ -33,7 +33,7 @@ function HeroNovaLPV() {
 
               <img
                 src="/bgHeroInfluencerBook.webp"
-                alt=""
+                alt="Imagem do Livro na Seção Início"
                 fetchPriority="high"
                 width="468"
                 height="525"
@@ -54,7 +54,7 @@ function HeroNovaLPV() {
                     src={contentLp01.hero.logo.logoImg}
                     width="192"
                     height="53"
-                    alt=""
+                    alt="Logo da Thaís Costa"
                     className="w-24 tablet1:w-48 mb-3 "
                   />
                 </div>
@@ -75,7 +75,7 @@ function HeroNovaLPV() {
               <div>
                 <img
                   src="/bgHeroInfluencerBook.webp"
-                  alt=""
+                  alt="Imagem do Livro na Seção Início"
                   width="468px"
                   height="525px"
                   fetchPriority="high"

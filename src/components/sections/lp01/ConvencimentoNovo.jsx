@@ -67,21 +67,21 @@ function ConvencimentoNovo() {
 
                 <img
                   src={contentLp01.whyUs.cards.imagens.img1}
-                  alt=""
+                  alt="Imagem representativa da seção Para quem é o E-book"
                   width="164"
                   height="208"
                   className="rounded-md w-[30%]"
                 />
                 <img
                   src={contentLp01.whyUs.cards.imagens.img2}
-                  alt=""
+                  alt="Imagem representativa da seção Para quem é o E-book"
                   width="164"
                   height="208"
                   className="rounded-md w-[30%]"
                 />
                 <img
                   src={contentLp01.whyUs.cards.imagens.img3}
-                  alt=""
+                  alt="Imagem representativa da seção Para quem é o E-book"
                   width="164"
                   height="208"
                   className="rounded-md w-[30%]"
@@ -96,21 +96,21 @@ function ConvencimentoNovo() {
               <div className="flex flex-wrap justify-between">
                 <img
                   src={contentLp01.whyUs.cards.imagens.img4}
-                  alt=""
+                  alt="Imagem representativa da seção Para quem é o E-book"
                   width="164"
                   height="208"
                   className="rounded-md w-[30%]"
                 />
                 <img
                   src={contentLp01.whyUs.cards.imagens.img5}
-                  alt=""
+                  alt="Imagem representativa da seção Para quem é o E-book"
                   width="164"
                   height="208"
                   className="rounded-md w-[30%]"
                 />
                 <img
                   src={contentLp01.whyUs.cards.imagens.img6}
-                  alt=""
+                  alt="Imagem representativa da seção Para quem é o E-book"
                   width="164"
                   height="208"
                   className="rounded-md w-[30%]"

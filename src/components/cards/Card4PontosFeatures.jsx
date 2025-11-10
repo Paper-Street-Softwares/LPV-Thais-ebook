@@ -150,7 +150,9 @@ function Card4PontosFeatures() {
                   <div className=" bg-primary w-24 h-22 p-3 rounded-full ">
                     <img
                       src={contentLp01.hero.logoBrasao}
-                      alt=""
+                      alt="imagem Brasão da Logo"
+                      width="64"
+                      height="81"
                       className="w-16 object-contain "
                     />
                   </div>
