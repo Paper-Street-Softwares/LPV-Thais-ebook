@@ -346,9 +346,9 @@ function FooterNovo() {
   };
   return (
     <div className="flex flex-col justify-center p-2 items-center">
-      <h5 className="text-paragraph3 text-center mt-3">
+      <p className="text-paragraph3 text-center mt-3">
         Todos os direitos reservados.
-      </h5>
+      </p>
       <Button
         className="underline"
         color="bg-transparent"
