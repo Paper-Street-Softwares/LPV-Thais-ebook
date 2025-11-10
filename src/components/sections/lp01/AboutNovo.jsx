@@ -24,6 +24,8 @@ function AboutNovo() {
                 <img
                   src={contentLp01.about.imgAbout.img}
                   alt=""
+                  width="280"
+                  height="413"
                   className="w-[80%] rounded-md"
                 />
                 <div className="absolute bottom-[-40px] left-1/2 -translate-x-1/2 w-[50%] h-[4px] bg-black blur-sm rounded-full"></div>

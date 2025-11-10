@@ -68,16 +68,22 @@ function ConvencimentoNovo() {
                 <img
                   src={contentLp01.whyUs.cards.imagens.img1}
                   alt=""
+                  width="164"
+                  height="208"
                   className="rounded-md w-[30%]"
                 />
                 <img
                   src={contentLp01.whyUs.cards.imagens.img2}
                   alt=""
+                  width="164"
+                  height="208"
                   className="rounded-md w-[30%]"
                 />
                 <img
                   src={contentLp01.whyUs.cards.imagens.img3}
                   alt=""
+                  width="164"
+                  height="208"
                   className="rounded-md w-[30%]"
                 />
               </div>
@@ -91,16 +97,22 @@ function ConvencimentoNovo() {
                 <img
                   src={contentLp01.whyUs.cards.imagens.img4}
                   alt=""
+                  width="164"
+                  height="208"
                   className="rounded-md w-[30%]"
                 />
                 <img
                   src={contentLp01.whyUs.cards.imagens.img5}
                   alt=""
+                  width="164"
+                  height="208"
                   className="rounded-md w-[30%]"
                 />
                 <img
                   src={contentLp01.whyUs.cards.imagens.img6}
                   alt=""
+                  width="164"
+                  height="208"
                   className="rounded-md w-[30%]"
                 />
               </div>
