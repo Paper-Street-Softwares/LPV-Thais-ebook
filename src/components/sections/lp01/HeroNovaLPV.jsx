@@ -30,7 +30,7 @@ function HeroNovaLPV() {
               </i>
 
               <img
-                src="/assets/imgs/hero/bgHeroInfluencerBook.webp"
+                src="/bgHeroInfluencerBook.webp"
                 alt=""
                 fetchPriority="high"
                 className="w-[90%] m-auto"
@@ -68,7 +68,7 @@ function HeroNovaLPV() {
 
               <div>
                 <img
-                  src="/assets/imgs/hero/bgHeroInfluencerBook.webp"
+                  src="/bgHeroInfluencerBook.webp"
                   alt=""
                   fetchPriority="high"
                 />
