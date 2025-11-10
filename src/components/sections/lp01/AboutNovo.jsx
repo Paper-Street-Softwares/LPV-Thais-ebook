@@ -23,7 +23,7 @@ function AboutNovo() {
               <div className="flex items-center justify-center relative">
                 <img
                   src={contentLp01.about.imgAbout.img}
-                  alt=""
+                  alt="Imagem da Thaís Costa"
                   width="280"
                   height="413"
                   className="w-[80%] rounded-md"
