@@ -12,7 +12,7 @@ function AcessoNovo() {
         backgroundImage: `url(${contentLp01.about.paralaxe})`,
         backgroundRepeat: "no-repeat",
       }}
-      className="relative bg-scroll bg-center bg-cover desktop1:bg-fixed"
+      className="relative bg-scroll bg-center bg-cover desktop1:bg-fixed font-mainFont"
     >
       <div className="absolute inset-0 bg-primary/90 z-0 pointer-events-none" />
 

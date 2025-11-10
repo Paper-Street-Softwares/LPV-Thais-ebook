@@ -10,7 +10,7 @@ function ConvencimentoNovo() {
   return (
     <SectionArea>
       <SectionWrapper>
-        <div className="relative flex flex-col gap-6 tablet2:flex-row justify-evenly items-center text-primary">
+        <div className="relative flex flex-col gap-6 tablet2:flex-row justify-evenly items-center text-primary font-mainFont">
           <div className="tablet2:max-w-[45%]">
             <p className="text-paragraph1 mb-2 w-full tracking-[5px]">
               É PARA VOCÊ <span className="">...</span>
