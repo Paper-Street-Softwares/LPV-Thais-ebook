@@ -18,7 +18,7 @@ function AboutNovo() {
       <div className="absolute inset-0 bg-primary/90 z-0 pointer-events-none" />
       <SectionArea>
         <SectionWrapper>
-          <div className="flex flex-col tablet2:flex-row justify-evenly m-auto gap-6 table2:gap-0 text-white max-w-[700px] z-10">
+          <div className="flex flex-col tablet2:flex-row justify-evenly m-auto gap-6 table2:gap-0 text-white max-w-[700px] z-10 font-mainFont">
             <section className="flex flex-col items-center gap-14 tablet2:max-w-[50%]">
               <div className="flex items-center justify-center relative">
                 <img

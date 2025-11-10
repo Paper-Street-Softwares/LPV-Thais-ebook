@@ -8,7 +8,7 @@ function EntregaNovo() {
   return (
     <SectionArea>
       <SectionWrapper>
-        <div>
+        <div className="font-mainFont">
           <div className="max-w-[1215px] m-auto px-6 text-center">
             {/* Título principal */}
             {/* <SectionHeader

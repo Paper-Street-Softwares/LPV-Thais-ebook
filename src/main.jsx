@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import "./i18n"; // ← importa a configuração do idioma
 import content from "./content/content.jsx";
+import "./index.css";
 
 import Index from "./pages/Index.jsx";
 import Lp01 from "./pages/Lp01.jsx";

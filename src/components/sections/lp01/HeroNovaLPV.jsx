@@ -60,7 +60,7 @@ function HeroNovaLPV() {
                 </div>
                 <i>
                   {" "}
-                  <h1 className="font-Merriweather text-primary desktop1:text-title5">
+                  <h1 className="font-mainFont text-primary desktop1:text-title5">
                     {contentLp01.hero.textArea.title}
                   </h1>
                 </i>
