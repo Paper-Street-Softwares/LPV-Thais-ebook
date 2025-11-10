@@ -32,6 +32,7 @@ function HeroNovaLPV() {
               <img
                 src={contentLp01.hero.imgPerson}
                 alt=""
+                fetchPriority="high"
                 className="w-[90%] m-auto"
               />
             </div>
@@ -66,7 +67,7 @@ function HeroNovaLPV() {
               </div>
 
               <div>
-                <img src={contentLp01.hero.bgImg} alt="" />
+                <img src={contentLp01.hero.bgImg} alt="" fetchPriority="high" />
               </div>
             </div>
           </SectionWrapper>
