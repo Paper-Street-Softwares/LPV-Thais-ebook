@@ -350,6 +350,7 @@ function FooterNovo() {
         Todos os direitos reservados.
       </p>
       <Button
+        removeAnchor={true}
         className="underline"
         color="bg-transparent"
         onClick={onClick}
