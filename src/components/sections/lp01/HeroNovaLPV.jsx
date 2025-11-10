@@ -24,7 +24,7 @@ function HeroNovaLPV() {
                 </h1>
               </i>
               <i>
-                <p className="font-secondFont text-copys mb-8 w-[90%] text-paragraph5 leading-[18px] tablet1:w-[65%] tablet2:leading-[18px] text-center m-auto">
+                <p className="font-secondFont mb-8 w-[90%] text-paragraph5 leading-[18px] tablet1:w-[65%] tablet2:leading-[18px] text-center m-auto">
                   {contentLp01.hero.textArea.subtitle}
                 </p>
               </i>
