@@ -25,6 +25,7 @@ import img5 from "../assets/imgs/whyUs/imgWhy5.webp";
 import img6 from "../assets/imgs/whyUs/imgWhy6.webp";
 import imgAbout from "../assets/imgs/about/espelhoAbout.webp";
 import paralaxe from "../assets/imgs/paralaxe/bgParalaxe1.webp";
+import logoMobile from "../assets/imgs/logo/logoMobile.webp";
 
 // import img1 from "../assets/imgs/about/image1.webp";
 // import img2 from "../assets/imgs/about/image2.webp";
@@ -46,6 +47,7 @@ const contentLp01 = {
     imgPerson: imgPerson,
     logo: {
       logoImg: logo,
+      logoImgMobile: logoMobile,
       alt: "Logomarca",
     },
     logoBrasao: brasao,
