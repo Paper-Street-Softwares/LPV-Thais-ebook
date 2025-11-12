@@ -27,11 +27,17 @@ function FullImg({ obs }) {
           {/* Conteúdo acima de tudo */}
           <div className="relative z-30">
             <MotionDivDownToUp className="flex justify-start desktop1:justify-start">
-              <img
-                src={contentLp01.hero.logo.logoImg}
-                alt={contentLp01.hero.logo.alt}
-                className="ml-[9%] max-w-[50%] my-[5%] w-[40%] tablet1:py-[7px]"
-              />
+              <picture>
+                <source
+                  srcSet={contentLp01.hero.logo.logoImgMobile}
+                  media="(max-width: 424px)"
+                />
+                <img
+                  src={contentLp01.hero.logo.logoImg}
+                  alt={contentLp01.hero.logo.alt}
+                  className="ml-[9%] max-w-[50%] my-[5%] w-[40%] tablet1:py-[7px]"
+                />
+              </picture>
             </MotionDivDownToUp>
 
             <SectionArea paddingTopAndBottom={false}>
